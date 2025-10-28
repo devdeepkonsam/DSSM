@@ -1,0 +1,238 @@
+This dataset contains information about phishing websites, with a total of 11,550 data instances and 30 features. 
+Each instance represents a website, and each feature describes a specific characteristic that may indicate whether a website is legitimate or phishing.
+
+Features include:
+- having_IP_Address
+- URL_Length
+- Shortining_Service
+- having_At_Symbol
+- double_slash_redirecting
+- Prefix_Suffix
+- having_Sub_Domain
+- SSLfinal_State
+- Domain_registeration_length
+- Favicon
+- port
+- HTTPS_token
+- Request_URL
+- URL_of_Anchor
+- Links_in_tags
+- SFH
+- Submitting_to_email
+- Abnormal_URL
+- Redirect
+- on_mouseover
+- RightClick
+- popUpWidnow
+- Iframe
+- age_of_domain
+- DNSRecord
+- web_traffic
+- Page_Rank
+- Google_Index
+- Links_pointing_to_page
+- Statistical_report
+- Result
+
+The dataset is used for machine learning and data analysis tasks to detect phishing websites based on these features.
+
+-1: Indicates a phishy or abnormal condition for that feature, signaling a negative indicator of legitimacy.
+
+0: Indicates a borderline or uncertain condition where the signal is suspicious but not definitively phishy or legitimate.
+
+1: Indicates a legitimate or normal condition for that feature, signaling a positive indicator of legitimacy.
+
+
+Feature: having_IP_Address
+having_IP_Address
+ 1    7262
+-1    3793
+Name: count, dtype: int64
+
+Feature: URL_Length
+URL_Length
+-1    8960
+ 1    1960
+ 0     135
+Name: count, dtype: int64
+
+Feature: Shortining_Service
+Shortining_Service
+ 1    9611
+-1    1444
+Name: count, dtype: int64
+
+Feature: having_At_Symbol
+having_At_Symbol
+ 1    9400
+-1    1655
+Name: count, dtype: int64
+
+Feature: double_slash_redirecting
+double_slash_redirecting
+ 1    9626
+-1    1429
+Name: count, dtype: int64
+
+Feature: Prefix_Suffix
+Prefix_Suffix
+-1    9590
+ 1    1465
+Name: count, dtype: int64
+
+Feature: having_Sub_Domain
+having_Sub_Domain
+ 1    4070
+ 0    3622
+-1    3363
+Name: count, dtype: int64
+
+Feature: SSLfinal_State
+SSLfinal_State
+ 1    6331
+-1    3557
+ 0    1167
+Name: count, dtype: int64
+
+Feature: Domain_registeration_length
+Domain_registeration_length
+-1    7389
+ 1    3666
+Name: count, dtype: int64
+
+Feature: Favicon
+Favicon
+ 1    9002
+-1    2053
+Name: count, dtype: int64
+
+Feature: port
+port
+ 1    9553
+-1    1502
+Name: count, dtype: int64
+
+Feature: HTTPS_token
+HTTPS_token
+ 1    9259
+-1    1796
+Name: count, dtype: int64
+
+Feature: Request_URL
+Request_URL
+ 1    6560
+-1    4495
+Name: count, dtype: int64
+
+Feature: URL_of_Anchor
+URL_of_Anchor
+ 0    5337
+-1    3282
+ 1    2436
+Name: count, dtype: int64
+
+Feature: Links_in_tags
+Links_in_tags
+ 0    4449
+-1    3956
+ 1    2650
+Name: count, dtype: int64
+
+Feature: SFH
+SFH
+-1    8440
+ 1    1854
+ 0     761
+Name: count, dtype: int64
+
+Feature: Submitting_to_email
+Submitting_to_email
+ 1    9041
+-1    2014
+Name: count, dtype: int64
+
+Feature: Abnormal_URL
+Abnormal_URL
+ 1    9426
+-1    1629
+Name: count, dtype: int64
+
+Feature: Redirect
+Redirect
+0    9776
+1    1279
+Name: count, dtype: int64
+
+Feature: on_mouseover
+on_mouseover
+ 1    9740
+-1    1315
+Name: count, dtype: int64
+
+Feature: RightClick
+RightClick
+ 1    10579
+-1      476
+Name: count, dtype: int64
+
+Feature: popUpWidnow
+popUpWidnow
+ 1    8918
+-1    2137
+Name: count, dtype: int64
+
+Feature: Iframe
+Iframe
+ 1    10043
+-1     1012
+Name: count, dtype: int64
+
+Feature: age_of_domain
+age_of_domain
+ 1    5866
+-1    5189
+Name: count, dtype: int64
+
+Feature: DNSRecord
+DNSRecord
+ 1    7612
+-1    3443
+Name: count, dtype: int64
+
+Feature: web_traffic
+web_traffic
+ 1    5831
+-1    2655
+ 0    2569
+Name: count, dtype: int64
+
+Feature: Page_Rank
+Page_Rank
+-1    8201
+ 1    2854
+Name: count, dtype: int64
+
+Feature: Google_Index
+Google_Index
+ 1    9516
+-1    1539
+Name: count, dtype: int64
+
+Feature: Links_pointing_to_page
+Links_pointing_to_page
+ 0    6156
+ 1    4351
+-1     548
+Name: count, dtype: int64
+
+Feature: Statistical_report
+Statistical_report
+ 1    9505
+-1    1550
+Name: count, dtype: int64
+
+Feature: Result
+Result
+ 1    6157
+-1    4898
+Name: count, dtype: int64
