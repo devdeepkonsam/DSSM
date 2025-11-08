@@ -1,0 +1,456 @@
+
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<title>Dataset Head - First 10 Rows</title>
+			<style>
+				body {
+					font-family: Arial, sans-serif;
+					margin: 20px;
+					background-color: #f5f5f5;
+				}
+				h2 {
+					color: #2c3e50;
+					text-align: center;
+				}
+				.info {
+					background-color: #3498db;
+					color: white;
+					padding: 10px;
+					border-radius: 5px;
+					margin-bottom: 20px;
+					text-align: center;
+				}
+				table {
+					border-collapse: collapse;
+					width: 100%;
+					background-color: white;
+					box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+					font-size: 12px;
+				}
+				th {
+					background-color: #34495e;
+					color: white;
+					padding: 12px;
+					text-align: center;
+					position: sticky;
+					top: 0;
+					z-index: 10;
+				}
+				td {
+					border: 1px solid #ddd;
+					padding: 10px;
+					text-align: center;
+				}
+				tr:nth-child(even) {
+					background-color: #f2f2f2;
+				}
+				tr:hover {
+					background-color: #e8f4f8;
+				}
+				.index-col {
+					background-color: #ecf0f1;
+					font-weight: bold;
+				}
+				.positive {
+					color: #27ae60;
+					font-weight: bold;
+				}
+				.negative {
+					color: #e74c3c;
+					font-weight: bold;
+				}
+			</style>
+		</head>
+		<body>
+			<h2>📊 Dataset Preview - First 10 Rows</h2>
+			<div class="info">
+				<strong>Total Rows:</strong> 11055 | 
+				<strong>Total Columns:</strong> 31 | 
+				<strong>Shape:</strong> (11055, 31)
+			</div>
+			<div style="overflow-x: auto;">
+		<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>having_IP_Address</th>
+      <th>URL_Length</th>
+      <th>Shortining_Service</th>
+      <th>having_At_Symbol</th>
+      <th>double_slash_redirecting</th>
+      <th>Prefix_Suffix</th>
+      <th>having_Sub_Domain</th>
+      <th>SSLfinal_State</th>
+      <th>Domain_registeration_length</th>
+      <th>Favicon</th>
+      <th>port</th>
+      <th>HTTPS_token</th>
+      <th>Request_URL</th>
+      <th>URL_of_Anchor</th>
+      <th>Links_in_tags</th>
+      <th>SFH</th>
+      <th>Submitting_to_email</th>
+      <th>Abnormal_URL</th>
+      <th>Redirect</th>
+      <th>on_mouseover</th>
+      <th>RightClick</th>
+      <th>popUpWidnow</th>
+      <th>Iframe</th>
+      <th>age_of_domain</th>
+      <th>DNSRecord</th>
+      <th>web_traffic</th>
+      <th>Page_Rank</th>
+      <th>Google_Index</th>
+      <th>Links_pointing_to_page</th>
+      <th>Statistical_report</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+      <td>0</td>
+      <td class="negative">-1</td>
+      <td class="positive">1</td>
+      <td>0</td>
+      <td class="positive">1</td>
+      <td class="negative">-1</td>
+    </tr>
+  </tbody>
+</table>
+			</div>
+		</body>
+		</html>
+		
